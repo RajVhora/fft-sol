@@ -1,0 +1,28 @@
+0.04
+0.04
+0.0
+0.0
+0.0
+0.0
+
+
+71.0
+20.0
+8.8	
+71.0
+20.0
+8.8
+
+
+
+
+
+
+eps0_11c,eps0_22c,eps0_12c,
+eps0_11e,eps0_22e,eps0_12e,
+c11m,c12m,c44m,c11p,c12p,c44p
+
+Zener anisotropy parameter: A = 2c44/(c11-c12)
+A = 1: isotropy
+A < 1: 100 are soft directions
+A > 1: 111 are soft directions

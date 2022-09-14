@@ -1,0 +1,7 @@
+29 April, 2013
+
+This code has been modified such that the free energy functional becomes dependent on both composition, which will be conserved variable and order parameter, which is an unconserved parameter. 
+
+The elastic constants have been pegged to the order parameter.
+
+Additionally, we can also define eigenstrains for compostion, but in this code, we assume them to be zero.

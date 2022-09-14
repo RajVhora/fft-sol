@@ -1,0 +1,27 @@
+Data in this directory is generated on Wed Sep 14 17:21:56 2022
+See the file version_name in this directory
+to find the version of the code used
+Starting the calculations afresh
+Evolution with inhomogeneous elasticity
+Unconstrained evolution
+n_x: 512 n_y: 512
+delta_x: 4.000000e-01 delta_y: 4.000000e-01
+kappac: 1.000000e+00 kappae: 1.000000e+00
+A: 1.000000e+00 B: 1.000000e+00 P: 1.000000e+00
+t0: 0.000000e+00
+time_steps1: 20 delta_t1: 1.000000e-01
+time_steps2: 40 delta_t2: 1.000000e-01
+time_steps3: 40 delta_t3: 1.000000e-01
+STEPS: 100
+eps0_11c: 4.000000e-02	eps0_22c: 4.000000e-02	eps0_12c: 0.000000e+00
+eps0_11e: 0.000000e+00	eps0_22e: 0.000000e+00	eps0_12e: 0.000000e+00
+c11m: 7.100000e+01	c12m: 2.000000e+01	c44m: 8.800000e+00
+c11p: 7.100000e+01	c12p: 2.000000e+01	c44p: 8.800000e+00
+n_alpha: 100000	n_beta: 100000
+alpha_interptype: 4:This means it is an interpolation by Wang's function
+beta_interptype: 4:This means it is an interpolation by Wang's function
+sig_app[1][1]: 0.000000e+00	sig_app[2][2]: 0.000000e+00
+sig_app[1][2]: 0.000000e+00	Maximum number of iterations allowed: 2000 and 
+maximum allowed error in displacement refinement: 2.000000e-05
+Alloy composition: 1.000000e+00
+No sustained noise.

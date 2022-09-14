@@ -1,0 +1,17 @@
+100000
+100000
+4
+4
+5
+
+Note that when elasticity is pegged to eta, only
+interpolation types 1 and 4 might be relevant.
+
+n_alpha, n_beta, alpha_interpolation_type, beta_interpolation_type,
+steepness_factor (relevant only for tanh)
+
+interpolation type key: 1 - tanh
+			2 - comp
+			3 - delcomp
+			4 - Wang's function
+			5 - comp (with C(precip) for effective modulus)

@@ -1,0 +1,2 @@
+To change the GSL random number seed and type:
+GSL_RNG_SEED=123 GSL_RNG_TYPE=mrg ./a.out

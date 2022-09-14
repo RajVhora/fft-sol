@@ -1,0 +1,11 @@
+3
+
+Note that for the current code, the only relevant problem type is 3.
+
+1 - Pure diffusion
+2 - Homogeneous elasticity
+3 - Inhomogeneous elasticity
+4 - Variable mobility
+5 - Pure diffusion - CH and AC equations
+6 - Homogeneous elasticity - CH and AC equations
+7 - Inhomogeneous elasticity - CH and AC equations

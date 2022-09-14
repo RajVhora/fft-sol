@@ -1,0 +1,85 @@
+/********************
+
+	INPUT Files - Description
+
+											************************/
+
+The files 
+
+sustained_noise, 
+system_constants, 
+ave_comp and
+init_comp_prof 
+
+are generated using the preprocessor routines. Of the
+above ave_comp and init_compo_prof are binary files and cannot be
+edited using the text editors. 
+
+The file sustained_noise contains the following information:
+(a) If noise needs to be added (0 if "NO" and 1 if "YES")
+(b) If yes, the number steps after which the noise needs to be added
+and the magnitude of noise.
+
+The file system_constants contains the following information:
+The number of grid points in the x and y directions, the grid length
+along the x and y directions, the gradient energy coefficient, the
+constant for bulk free energy density, total number of time steps, the
+length of each time step, and the number of time steps after which
+the data needs to be written.
+
+In addition, the following files may also need to be edited:
+
+(1) problem_type
+
+Indicate if the evolution is diffusional without elasticity (Key: 1),
+or evolution with homogeneous elasticity (Key: 2), or inhomogeneous
+elasticity (Key: 3)
+
+(2) elastic_constants
+
+Indicate the eigenstrains (eps0_11, eps0_22, and eps0_12) as well as
+the elastic constants for the matrix and the precipitate respectively.
+(We assume cubic elasticity, and hence c11, c12 and c44 need to be 
+indicated). If homogeneous elastic calculations are indicated, then
+the elastic constants of the matrix is taken to be the elastic
+constant of the system.
+
+(3) applied_stress
+
+Indicate the xx and yy components of the applied stress.
+
+(4) evolution_type
+
+Indicate if it is constrained evoution (Key: 0) or unconstrained
+evolution (Key: 1). If it is contrained evolution, the homogeneous
+strain is assumed to be zero.
+
+(5) FFTW_option
+
+Indicate the option for FFTW plan:
+
+0 - FFTW_ESTIMATE
+1 - FFTW_MEASURE
+2 - FFTW_PATIENCE
+3 - FFTW_EXHAUSTIVE
+
+The initialisation times increase with increasing numbers, as also the
+efficiency. Check the FFTW manual for further details.
+
+(6) interpolator_constants
+
+Indicate the number of entries in the table for the interpolation of
+the functions alpha (elastic constant interpolation) and beta
+(eigenstrain interpolation), and, the interpolation type. As of now,
+the code can handle three types of interpolation:
+
+tanh function (Key: 1)
+composition (Key: 2)
+composition - average_composition (Key: 3)
+
+(7) magic_numbers
+
+Indicate the maximum number of iterations and error allowed for the
+refinement of the displacement solution.
+
+----- Last updated on 27th October, 2004.
