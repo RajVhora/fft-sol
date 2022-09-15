@@ -1,0 +1,7 @@
+*.o
+*.out
+output/itnos_err
+output/README
+output/version_name
+output/data/*.dat
+muse_evolver.out
