@@ -7,5 +7,5 @@ output/data/*.dat
 muse_evolver.out
 output/postprocessor/data/src/datamakerc.c
 output/postprocessor/data/src/datamakere.c
-output/postprocessor/data/src/psmakerc.c
+output/postprocessor/ps/src/psmakerc.c
 output/postprocessor/ps/src/psmakere.c
