@@ -1,3 +1,12 @@
+ellipt
+50.0
+12.5
+1.0
+0.0
+0.0
+0
+1000
+
 spinod
 1.0
 1.0e-4
@@ -39,16 +48,6 @@ twocir
 0.0
 0
 1000
-
-ellipt
-50.0
-12.5
-1.0
-0.0
-0.0
-0
-1000
-
 
 random - Give R, N, comp_precipitate, ave_comp, sustained noise,steps
 circular - Give R, comp_precipitate, comp_matrix, sustained noise,
