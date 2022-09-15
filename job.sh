@@ -6,10 +6,10 @@
 
 cd preprocess
 make clean
-make
-./a.out
+#make
+#./a.out
 
 cd ../evolver
 make clean
-make
-./muse_evolver.out
+#make
+#./muse_evolver.out
