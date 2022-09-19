@@ -13,3 +13,6 @@ cd ../evolver
 make clean
 make
 ./muse_evolver.out
+
+cd ../
+python3 plot.py
