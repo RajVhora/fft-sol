@@ -10,3 +10,4 @@ output/postprocessor/data/src/datamakere.c
 output/postprocessor/ps/src/psmakerc.c
 output/postprocessor/ps/src/psmakere.c
 graph.png
+numerical.dat
