@@ -4,6 +4,8 @@
 #PBS -l nodes=1:ppn=8
 #PBS -l pmem=1200mb 
 
+python inputs_parser.py
+
 cd preprocess
 make clean
 make
