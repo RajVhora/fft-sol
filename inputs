@@ -1,6 +1,6 @@
 0.3
-1
-0.75
+50
+12.5
 210
 210
 0.001
@@ -15,3 +15,5 @@ Young's Modulus of precipitate
 Omega11
 Omega22
 Omega12
+
+#This code cannot read major axis and minor axis for now
